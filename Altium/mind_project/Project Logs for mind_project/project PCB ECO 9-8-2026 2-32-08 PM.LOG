@@ -1,0 +1,15 @@
+Added Component: Designator=J8(Terminal)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/datasheet/C8465.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=RAIMXwZeRgRXUFAAT1RZBAEFEVIIVgdSQFlfUgUDFQcxVlNeQVRaUFdVR1VbVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = "KANGNEX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PART#"; Value = "WJ500V-5.08-2P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier PART#"; Value = "C8465"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=J8-1
+Added Pin To Net: NetName=GND Pin=J8-2
+Change Class Name : Old Net Name=project New Net Name=STM
+Change Class Name : Old Net Name=Sheet2 New Net Name=Sensors&Actuators
+Added Member To Class: ClassName=STM Member=Component J1 UART
+Added Member To Class: ClassName=Sensors&Actuators Member=Component J4 FAN
+Added Member To Class: ClassName=Sensors&Actuators Member=Component J8 Terminal
+Added Member To Class: ClassName=Sensors&Actuators Member=Component LS1 Buzzer

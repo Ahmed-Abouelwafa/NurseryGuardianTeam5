@@ -1,0 +1,20 @@
+Added Component: Designator=LDR1(LDR)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/datasheet/C2904880.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=FgVdAVJeFgAKAVAAT1ldBVYDR1ZcX11XR1lZVl1WEQMxVlNeT1JZUVBXRVZXUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = "JCHL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PART#"; Value = "GT36516"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier PART#"; Value = "C2904880"; VariantName = "[No Variations]"
+Added Component: Designator=RT1(NTC_0805)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/datasheet/C511025.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.9.xh&lcsc_vid=FgVdAVJeFgAKAVAAT1ldBVYDR1ZcX11XR1lZVl1WEQMxVlNeT1JZVVFeRldaXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = "VISHAY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PART#"; Value = "NTCS0805E3103JHT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier PART#"; Value = "C511025"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PA1 Pin=LDR1-1
+Added Pin To Net: NetName=+3V3 Pin=LDR1-2
+Added Pin To Net: NetName=PA0 Pin=RT1-1
+Added Pin To Net: NetName=+3V3 Pin=RT1-2
+Added Member To Class: ClassName=Sensors&Actuators Member=Component LDR1 LDR
+Added Member To Class: ClassName=Sensors&Actuators Member=Component RT1 NTC_0805
